@@ -1,0 +1,704 @@
+/* nav bar section */
+
+.logo{
+
+  font-family: "Ubuntu";
+  font-size: 80px;
+
+}
+
+header {
+
+background-color: yellow;
+text-align: center;
+position: fixed;
+z-index: 999;
+width: 100%
+
+}
+
+.burger {
+
+  font-size: 75px;
+  padding-left: 50px;
+  padding-bottom: 70px;
+}
+
+nav{
+  position: absolute;
+  font-size: 55px;
+  text-align: center;
+  top: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(0, 0, 0);
+  width:100%;
+
+
+}
+
+.nav-toggle {
+
+  display: none;
+
+}
+
+.nav-toggle-label {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  display:flex;
+  align-items: center;
+}
+
+
+
+nav ul {
+
+margin:0;
+padding-bottom: 25px;
+list-style: none;
+color: rgb(0, 0, 0);
+padding-bottom: 40px;
+
+}
+
+nav li {
+
+margin-bottom: 1em;
+margin-left: 1em;
+
+
+}
+
+
+nav a {
+
+  color: black;
+  text-decoration:none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-size: 45px;
+
+}
+
+nav a:hover {
+
+color: red;
+
+}
+
+.nav-toggle:checked ~ nav {
+
+  display: block;
+}
+
+/* nav bar section red section below */
+
+
+nav{
+    width:100%;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    line-height: 80px;
+    text-align: center;
+}
+
+nav ul{
+
+    margin-right: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+nav ul li{
+
+    list-style: none;
+    display:inline-block;
+    transition: 0.8s all;
+    font-size: 28px;
+}
+
+nav ul li:hover{
+    background-color: yellow;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color:white;
+    padding: 30px;
+}
+
+
+
+
+.button {
+
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em ;
+  border: none;
+  outline: none;
+  background: yellow;
+  cursor: pointer;
+
+}
+
+
+.button:hover{
+
+  background:yellowgreen;
+
+
+
+}
+
+
+
+
+
+.btn {
+  background: #F63D3D;
+  background-image: -webkit-linear-gradient(top, #F63D3D, #811616);
+  background-image: -moz-linear-gradient(top, #F63D3D, #811616);
+  background-image: -ms-linear-gradient(top, #F63D3D, #811616);
+  background-image: -o-linear-gradient(top, #F63D3D, #811616);
+  background-image: -webkit-gradient(to bottom, #F63D3D, #811616);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 230px;
+  line-height: 10px;
+  color: #FFFFFF;
+  font-family: Arial;
+  width: 249px;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 18px;
+  -webkit-box-shadow: 1px 1px 6px 0 #000000;
+  -moz-box-shadow: 1px 1px 6px 0 #000000;
+  box-shadow: 1px 1px 6px 0 #000000;
+  text-shadow: 1px 1px 6px #000000;
+  border: solid #762C2C 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.btn:hover {
+color: yellow
+
+}
+
+
+/* for top part or hero or header information FOR ALL PAGES ONLY below START */
+
+
+.heroindex1 { 
+
+  background-color: #074f57;
+  background-image: url("../images/mtn2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+
+}
+
+.heroindex2 { 
+
+  background-color:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+
+}
+
+/* for nav bar information FOR MUSIC PAGE ONLY below */
+
+
+.heromusic {
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+
+/* for nav bar information FOR MERCH PAGE ONLY below */
+
+
+.heromerch {
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+
+/* for nav bar information FOR EPISODES PAGE ONLY below */
+
+
+.heroepisodes {
+
+  background-color: black;
+  background-image: url("../images/mtn2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+
+  /* Part of the Top Part Hero section or header area start */
+
+
+.herohead {
+
+
+  color: yellow;
+  font-size: 140px;
+  font-weight: bold;
+
+  /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+
+  -webkit-text-fill-color: yellow;
+  -webkit-text-stroke: 4px red;
+
+  margin-top: 260px;
+  
+}
+
+.herosub {
+
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 35px;
+
+  /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px red;
+
+}
+
+.TitleBar{
+
+  color: red;
+  font-size: 105px;
+  font-weight: bold;
+
+}
+
+.TitleBar2{
+
+  color: black;
+  font-size: 105px;
+  font-weight: bold;
+}
+  /* Part of the Top Part Hero section or header area end */
+
+
+/* for top part or hero or header information FOR ALL PAGES ONLY below END */
+
+
+/* MAINPICTURE start --  below might be used again but not now, as of Sept 11, 2023 */
+
+
+.mainpicture{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  height:70%;
+  width:70%;
+
+}
+
+/* MAINPICTURE end --  below might be used again but not now, as of Sept 11, 2023 */
+
+
+
+
+  .boldtypegofundme {
+
+    color:yellow;
+    font-weight: bold;
+
+  }
+
+  /* used in music block with spotlight, band picture, and text */
+
+
+  #testimonialsband {
+    text-align: center;
+    background-image: url("../images/favpng_spotlight-clip-art.png");
+    background-repeat: no-repeat;
+    margin-top: 250px;
+
+    background-color: black;
+    
+    }
+
+    /* used in books pictures and main picture pictures */
+
+
+  .mastheadtitle {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logotop {
+    margin: 0;
+    height: 20%;
+    width: 20%;
+    padding-right: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  .picture {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100%;
+    width: 100%;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .picture2 {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    height: 70%;
+    width: 70%;
+    position:static;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+
+  #features {
+
+    padding: 5% 4%;
+    position: relative;
+    
+    }
+
+
+
+    .testimonial-text{
+
+font-family: 'Times New Roman', Times, serif;      
+      color: black;
+      text-align: center;
+      font-size: 55px ;
+      padding-top: 80px;
+      padding-left:32px;
+      padding-right: 32px;
+      padding-bottom: 100px;
+      
+      
+      }
+
+      .bandtext{
+
+        font-family: "Ubuntu";
+        color: white;
+        text-align: center;
+        font-size: 55px ;
+        padding-top: 80px;
+        padding-left:32px;
+        padding-right: 32px;
+        padding-bottom: 100px;
+        
+        
+        }
+  
+
+      hr {
+
+        border: dotted red 16px;
+        border-bottom: none;
+        width: 100%;
+        margin: 100px auto;
+    
+      
+    }
+
+
+    .bodytextfilm {
+
+      font-size: 55px;
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+    
+    }
+
+    .bodytextfilmclip {
+
+      font-size: 55px;
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      padding-left: 50px;
+      padding-right: 50px;
+    
+    }
+
+.videowrapper {
+
+  position: relative;
+  padding-bottom:56.25%;
+  padding-top: 25px;
+  height: 0 px;
+
+
+
+}
+
+.videowrapper iframe {
+
+position:absolute;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+height: 100%;
+width: 100%;
+
+
+
+
+
+}
+
+    .bodytextyellowblock{
+
+      font-size: 55px;
+      font-family: 'Times New Roman', Times, serif;
+      color:black;
+      text-align: center;
+    
+    }
+
+    .bodytext{
+
+      font-size: 45px;
+      font-family: 'Times New Roman', Times, serif;
+      color:white;
+    
+    }
+
+    .bodytextclip{
+
+      padding-left: 45px;
+      padding-right: 45px;
+
+      font-size: 45px;
+      font-family: 'Times New Roman', Times, serif;
+      color:white;
+    
+    }
+
+    .bodytextclipbold{
+
+      padding-left: 45px;
+      padding-right: 45px;
+
+      font-size: 45px;
+      font-family:Arial, Helvetica, sans-serif;
+      color:white;
+    
+    }
+
+    .bodytextseasons{
+
+      font-size: 45px;
+      font-family: 'Times New Roman', Times, serif;
+      color:black;
+
+      padding-top: 55px;
+      padding-bottom: 55px;
+      padding-left: 55px;
+      padding-right: 55px;
+    
+    }
+  
+
+    .boldtype {
+
+      color:red;
+      font-weight: bold;
+    }
+
+
+    .boldtypeTan {
+
+      color:red;
+      font-weight: bold;
+    }
+
+
+    .bandhref {
+
+      color:blue;
+      font-weight: bold;
+
+    }
+
+    .bandhref:hover{
+
+      color:red;
+      font-weight: bold;
+    }
+
+    .bandhrefm {
+
+      color:white;
+    }
+
+    .bandhrefmusic {
+
+      color:white;
+      font-size: 84px;
+    }
+
+    .bandhrefyellow {
+
+      color:yellow;
+    }
+
+    .bandhrefyellow:hover {
+
+      color:aqua;
+    }
+
+
+
+    .bookpicture{
+    
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 75px;
+      padding-bottom: 170px;
+      height:100%;
+      width:100%;
+    
+    
+    
+    }
+
+    .setpslistthree{
+
+      font-size: 55px;
+    }
+
+
+    #gofundme {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:white;
+      background-color: black;
+      
+      }
+
+      .HeaderTrueLove{
+
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 25px;
+        padding-bottom: 45px;
+      }
+
+
+          /* footer block */
+
+    
+      #footerindex {
+        padding: 50px;
+        text-align: center;
+        font-size: 38px;
+        color:white;
+        background-color: gray;
+        
+        }
+    
+        p{
+    
+          color:white;
+        }
+    
+
+
+          /* carousel block */
+
+          * {
+
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+          }
+
+
+      .carousel-container {
+
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+          }
+
+
+          .carousel-slide {
+
+            display:flex;
+            width: 100%;
+            height: 500px;
+          }
+      
+
+    
+
+    
+  
